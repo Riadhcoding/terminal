@@ -23,7 +23,7 @@ logo = """
 \033[1;34m   dP dP dP     `88888P
 
 """
-
+os.system('clear')
 print(logo)
 print("\033[1;31m[1] \033[1;34mRestore the default terminal")
 time.sleep(0.3)
