@@ -32,8 +32,6 @@ print("\033[1;31m[2] \033[1;34mMy Youtube")
 time.sleep(0.3)
 print("\033[1;31m[3] \033[1;34mMy instagram")
 time.sleep(0.3)
-print("\033[1;31m[4] \033[1;34mUpdate tool")
-time.sleep(0.3)
 print("\033[1;31m[0] \033[1;34mExit")
 time.sleep(0.3)
 print('')
@@ -61,13 +59,6 @@ elif choose == '3':
     os.system('clear')
     print(logo)
     time.sleep(0.3)
-    os.system('exit')
-
-elif choose == '4':
-    os.system('git pull')
-    os.system('clear')
-    print(logo)
-    print("\033[1;31mSuccessfully updated")
     os.system('exit')
 
 elif choose == '0':
