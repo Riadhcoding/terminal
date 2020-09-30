@@ -5,6 +5,7 @@ def jalan(z):
         sys.stdout.write(e)
         sys.stdout.flush()
         time.sleep(00000.02)
+os.system('git pull https://github.com/python-life/terminal')
 logo = """
 \033[1;34m                       dP   dP                         
 \033[1;34m                       88   88                         
