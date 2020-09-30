@@ -35,7 +35,7 @@ time.sleep(0.3)
 print("\033[1;31m[0] \033[1;34mExit")
 time.sleep(0.3)
 print('')
-choose = input("\033[1;31m[?]\033[1;34mChoose an option : ")
+choose = input("\033[1;31m[?]\033[1;37mChoose an option : ")
 
 if choose == '1':
     jalan("please wait...")
