@@ -43,7 +43,7 @@ class main:
         choose = input("\033[1;31m[?]\033[1;37mChoose an option : ")
         if choose == '1':
             jalan("please wait...")
-            os.system('cd ..;cd usr;cd etc;rm -rf bash.bashrc')
+            os.system('cd /data/data/com.termux/files/usr/etc;rm -rf bash.bashrc')
             os.system('cd terminal ;cp bash.bashrc /data/data/com.termux/files/usr/etc')
             clear()
             print(logo)
