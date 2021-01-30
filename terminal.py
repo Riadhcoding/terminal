@@ -40,10 +40,10 @@ choose = input("\033[1;31m{?}\033[1;37mChoose an option : ")
 if choose == '1':
     jalan("please wait...")
     os.chdir('/data/data/com.termux/files/usr/etc')
-if os.path.exists('bash.bashrc'):
-    os.remove('bash.bashrc')
-os.chdir('/data/data/com.termux/files/home/terminal')
-os.system('cp bash.bashrc /data/data/com.termux/files/usr/etc')
+    if os.path.exists('bash.bashrc'):
+        os.remove('bash.bashrc')
+    os.chdir('/data/data/com.termux/files/home/terminal')
+    os.system('cp bash.bashrc /data/data/com.termux/files/usr/etc')
     clear()
     print(logo)
     os.system('termux-reload-settings')
