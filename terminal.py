@@ -47,7 +47,7 @@ if choose == '1':
     clear()
     print(logo)
     os.system('termux-reload-settings')
-    print("\033[1;31mPlease Restart Rpplication")
+    print("\033[1;31mPlease Restart Application")
     os.system('exit')
 elif choose == '2':
     os.system('xdg-open https://www.youtube.com/c/pythonlife')
